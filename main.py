@@ -22,6 +22,9 @@ def turn_right():
 
 def clear_screen():
     tim.clear()
+    tim.penup()
+    tim.setpos(0,0)
+    tim.pendown()
 
 
 screen.listen()
